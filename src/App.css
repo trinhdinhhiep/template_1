@@ -3,9 +3,12 @@
 }
 .bgImg{
   height: 100%;
-  background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%285%29.jpg');
+  background-image: url('https://i1.wp.com/2.bp.blogspot.com/-2d1KW_dPMb4/Xy1Xuf4IiLI/AAAAAAABeLU/3XFDd7D533wtJSq5blWtlo4pB1Mq_q_0wCLcBGAsYHQ/s1600/Coser-Momoko-MrCong.com-002.jpg?w=955&ssl=1');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+}
+.pos{
+    position: absolute;
 }

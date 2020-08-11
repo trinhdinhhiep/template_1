@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar pos">
                 <a className='navbar-brand' href='/'>
                     <img height={20} src='https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png' alt='logo'></img>
                 </a>
