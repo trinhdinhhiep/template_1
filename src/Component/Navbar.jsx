@@ -8,7 +8,7 @@ class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar pos">
+                <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-white scrolling-navbar pos">
                     <a className='navbar-brand' href='/'>
                         <img height={20} src='https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png' alt='logo'></img>
                     </a>
@@ -20,34 +20,8 @@ class Navbar extends Component {
                             {this.state.content.map(item => (<Content data={item} />))}
                         </div>
                         <div >
-                            <Icon />
+                            <Icon displayIcon='navbar-nav' />
                         </div>
-                        {/* <li className="nav-item">
-                                <a className="nav-link" href="\">
-                                    <ion-icon size="large" name="cart-outline"></ion-icon>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA">
-                                    <ion-icon size="large" name="logo-youtube"></ion-icon>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://www.facebook.com/mdbootstrap">
-                                    <ion-icon size="large" name="logo-facebook"></ion-icon>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://twitter.com/MDBootstrap">
-                                    <ion-icon size="large" name="logo-twitter"></ion-icon>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit">
-                                    <ion-icon size="large" name="logo-github"></ion-icon>
-                                </a>
-                            </li> */}
-
                     </div>
                 </nav>
             </div>

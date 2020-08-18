@@ -12,7 +12,7 @@ class Icon extends Component {
     }
     render() {
         return (
-            <div className="d-flex flex-row">
+            <div className={this.props.displayIcon}>
                 {this.state.data.map(e => (
                     <ItemIcon dataIcon={e.icon} dataLink={e.link} />
                 ))}
